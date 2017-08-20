@@ -1,4 +1,8 @@
-import Pessoa from './pessoa'
+import './estilo.css'
+import 'react'
 
-const pessoa = new Pessoa('Alan Andrade Bispo')
-console.log(pessoa.toString())
+export default props => (
+    <h1>Olá</h1>
+)
+
+console.log('Funcionou!')
